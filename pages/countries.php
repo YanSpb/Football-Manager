@@ -5,7 +5,9 @@ $countries = getCountries();
 ?>
 <!--<p>-->
 <br>
-     <a href="../forms/addCountry.php">Добавить страну</a>.
+<!--     <a href="../forms/addCountry.php">Добавить страну</a>.-->
+<form action="../forms/addCountry.php" method="GET">
+    <button>Добавление страны</button>
 <br>
 <br>
 <table>

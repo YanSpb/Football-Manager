@@ -9,11 +9,14 @@ include_once "../file.php";
 </head>
 <body>
 <a href="../">Главная</a>.
+<br>
+<br>
 <form action="../actions/addCountryActions.php" method="GET">
+    <button>Добавление страны</button>
     <p>
         Добавление страны: <input type="string" name="country" value=""> <br>
         <!--        Добавление страны: <input type="string" name="country" value=""> <br>-->
-        <input type="submit">
+<!--        <input type="submit">-->
     </p>
 </form>
 </body>

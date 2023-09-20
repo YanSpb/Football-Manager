@@ -11,8 +11,13 @@ $countries = getCountries();  //передаю в $countries массив(id с�
 </head>
 <body>
 <a href="../">Главная</a>.
+<br>
+<br>
 <form action="../actions/addClubActions.php" method="GET">
-    <p>Добавление клуба:<br>
+    <button>Добавление клуба</button>
+<!--    <p>Добавление клуба:<br>-->
+    <br>
+    <br>
         Страна: <select name="country">
             <?php
             foreach ($countries as $id => $name){
@@ -21,8 +26,8 @@ $countries = getCountries();  //передаю в $countries массив(id с�
             ?>
         </select>
         Название:  <input required type="text" name="name" value=""><br>
-        <input type="submit">
-    </p>
+<!--        <input type="submit">-->
+<!--    </p>-->
 </form>
 </body>
 </html>

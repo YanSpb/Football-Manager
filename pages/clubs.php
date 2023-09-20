@@ -17,4 +17,5 @@ $clubs = getClubs();
         echo '<tr><td>' . $id . '</td><td>' . $name .'</td></tr>';
     }
     ?>
+
 </table>

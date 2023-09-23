@@ -3,11 +3,11 @@ include_once "../views/menu.php";
 include_once "../database.php";
 $clubs = getClubs();
 ?>
-
+<link rel="stylesheet" href="../style/style.css">
 <br>
 <!--<a href="../forms/addClub.php">Добавить клуб</a>.-->
 <form action="../forms/addClub.php" method="GET">
-    <button>Добавление клуба</button>
+    <button class="btn">Добавление клуба</button>
 <br>
 <br>
 <table>

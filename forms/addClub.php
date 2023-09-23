@@ -14,7 +14,7 @@ $countries = getCountries();  //передаю в $countries массив(id с�
 <br>
 <br>
 <form action="../actions/addClubActions.php" method="GET">
-    <button>Добавление клуба</button>
+    <button>Добавить игрока</button>
 <!--    <p>Добавление клуба:<br>-->
     <br>
     <br>

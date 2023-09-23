@@ -12,7 +12,7 @@ include_once "../file.php";
 <br>
 <br>
 <form action="../actions/addCountryActions.php" method="GET">
-    <button>Добавление страны</button>
+    <button>Добавить страну</button>
     <p>
         Добавление страны: <input type="string" name="country" value=""> <br>
         <!--        Добавление страны: <input type="string" name="country" value=""> <br>-->

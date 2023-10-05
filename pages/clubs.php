@@ -3,6 +3,7 @@ include_once "../views/menu.php";
 include_once "../database.php";
 $clubs = getClubs();
 ?>
+<title>Клубы</title>
 <link rel="stylesheet" href="../style/style.css">
 <br>
 <!--<a href="../forms/addClub.php">Добавить клуб</a>.-->

@@ -16,6 +16,6 @@ include_once "views/menu.php";
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-
+<!--<img src="" alt="">-->
 </body>
 </html>

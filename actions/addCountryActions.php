@@ -1,6 +1,6 @@
 <?php
 include_once "../database.php";
-if ($_GET["country"] === null) {
+if (empty($_GET["name"])) {
     header('Location: ../pages/countries.php');
 }
 addCountry($_GET["country"]);

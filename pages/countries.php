@@ -14,6 +14,7 @@ $countries = getCountries();
     <title>Страны</title>
 </head>
 <body>
+<br>
 <form action="../forms/addCountry.php" method="GET">
     <button class="btn">Добавление страны</button>
     <br>

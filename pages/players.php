@@ -13,6 +13,7 @@ include_once "../database.php";
     <title>Игроки</title>
 </head>
 <body>
+<br>
     <form action="../forms/addPlayer.php">
         <button class="btn">Добавление игрока</button>
 </body>

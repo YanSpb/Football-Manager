@@ -14,6 +14,7 @@ $clubs = getClubs();
     <title>Клубы</title>
 </head>
 <body>
+<br>
 <form action="../forms/addClub.php" method="GET">
     <button class="btn">Добавление клуба</button>
     <br>
